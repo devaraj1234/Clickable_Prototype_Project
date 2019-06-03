@@ -1,0 +1,80 @@
+#wrapper {
+	width: 99%;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+	.logo{
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+	}
+
+	.productImage{
+		width: 200px;
+		height: 200px;
+	}
+
+
+#loginSignUpForm{
+	border: 3px solid #f1f1f1;
+	width: 70%;
+	margin: 10px auto;
+}
+
+.loginSignUpContainer{
+	margin: 15px;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 20px 0 10px 0;
+}
+
+img.avatar {
+  width: 7%;
+  border-radius: 50%;
+}
+
+
+.loginSignUpInput{
+  width: 70%;
+  padding: 8px 16px;
+  margin: 3px 0;
+  display: block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.loginSignUpButton {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  margin: 4px 0px 4px 350px;
+  border-radius: 5px;
+  border: none;
+  width: auto;
+}
+
+.loginSignUpButton:hover {
+  opacity: 0.8;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 1024px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+
+  .loginSignUpButton{
+  	display: block;
+  	margin: 4px 0;
+  	float: none;
+  }
+
